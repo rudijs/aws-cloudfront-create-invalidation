@@ -32,7 +32,7 @@ Invalidate entire cache:
 
 ```yaml
 script:
-  - pipe: docker://rudijs/aws-cloudfront-create-invlidation:1.0.1
+  - pipe: docker://rudijs/aws-cloudfront-create-invalidation:1.0.2
     variables:
       AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
       AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
@@ -43,7 +43,7 @@ Invalidate selected files:
 
 ```yaml
 script:
-  - pipe: docker://rudijs/aws-cloudfront-create-invlidation:1.0.1
+  - pipe: docker://rudijs/aws-cloudfront-create-invalidation:1.0.2
     variables:
       AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
       AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
